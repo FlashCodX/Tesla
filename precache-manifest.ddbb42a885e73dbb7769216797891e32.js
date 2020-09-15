@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "135d309099f53dcb2e90197ca910897b",
+    "revision": "b3815afc1a2ec26e47fa052f90789bf7",
     "url": "/tesla/index.html"
   },
   {
-    "revision": "3e49d4b8d2a076a60071",
-    "url": "/tesla/static/css/main.47daa36f.chunk.css"
+    "revision": "a352f759f1eec4435a60",
+    "url": "/tesla/static/css/main.0718af0d.chunk.css"
   },
   {
     "revision": "e8e3c579d36214283048",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/tesla/static/js/2.7f47acfd.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3e49d4b8d2a076a60071",
-    "url": "/tesla/static/js/main.e2fef401.chunk.js"
+    "revision": "a352f759f1eec4435a60",
+    "url": "/tesla/static/js/main.c939ec6b.chunk.js"
   },
   {
     "revision": "5afaf99117c25660ae82",
