@@ -2,9 +2,10 @@
 
 #### This Project is replica of the original Tesla Website, made with React Js.
 
-> Check out the app in :  [https://flashcodx.github.io/Spotify/](https://flashcodx.github.io/tesla/)
+> Check out the app in :  [https://flashcodx.github.io/Tesla/](https://flashcodx.github.io/Tesla/)
 
-![preview](assets/preview.PNG)
+![preview](src/assets/preview.gif)
+![preview](src/assets/preview2.gif)
 
 
 ## Tech
@@ -19,10 +20,9 @@ Tesla requires [Node.js](https://nodejs.org/)  to run.
 
 
 Clone and install all needed dependencies.
-
 ```sh
-$ git clone https://github.com/FlashCodX/tesla
-$ cd tesla
+$ git clone https://github.com/FlashCodX/Tesla
+$ cd Tesla
 $ npm install
 ```
 
@@ -31,7 +31,7 @@ Copy the client Id from the created app and replace the constant value "clientID
 
 
 ### Running the App
-This will start a local server using node, and should be available on http://localhost:3000/Spotify .
+This will start a local server using node, and should be available on http://localhost:3000/
 ```sh
 $ npm start
 ```
