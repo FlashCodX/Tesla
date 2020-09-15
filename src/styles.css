@@ -1,12 +1,10 @@
-
 main {
     height: 100vh;
     overflow: auto;
     scrollbar-width: none;
     scroll-snap-type: block mandatory;
 }
-
-
+/*SPLASH SCREEN*/
 #splash {
     position: fixed;
     z-index: 1000;
@@ -19,17 +17,14 @@ main {
     height: 100%;
     animation: disappear 2s linear;
     animation-delay: 3s;
-
     animation-fill-mode: forwards;
 }
-
 #splash > h1 {
     font-weight: 900;
     letter-spacing: 40px;
     text-transform: uppercase;
     font-size: 50px !important;
 }
-
 #splash > div {
     background: black;
     height: 100%;
@@ -38,8 +33,6 @@ main {
     animation: splash 4s linear;
     animation-fill-mode: forwards;
 }
-
-
 @keyframes splash {
     0% {
         left: 0;
@@ -48,8 +41,6 @@ main {
         left: 100%;
     }
 }
-
-
 @keyframes disappear {
     100% {
         opacity: 0;
@@ -58,45 +49,16 @@ main {
     }
 }
 
+/*BODY*/
 body {
     background: black;
     user-select: none;
     -webkit-user-drag: none;
+    margin: 0 !important;
+    padding: 0 !important;
 }
 
-.out {
-    animation: out .2s linear;
-    animation-fill-mode: forwards;
-}
-
-.in {
-    animation: in 1s linear;
-    animation-fill-mode: forwards;
-}
-
-
-@keyframes in {
-    0% {
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 1;
-    }
-}
-
-
-@keyframes out {
-    0% {
-        opacity: 1;
-    }
-
-    100% {
-        opacity: 0;
-    }
-}
-
-
+/*COMPONENTS*/
 header {
     position: fixed;
     z-index: 2;
@@ -108,19 +70,13 @@ header {
     width: 100%;
 
 }
-
-
-
 header p {
     font-size: 18px;
 }
-
-
 main::-webkit-scrollbar {
     width: 0 !important;
     display: none !important;
 }
-
 main > section {
     position: relative;
     width: 100vw !important;
@@ -129,8 +85,6 @@ main > section {
     scroll-snap-stop: normal;
 
 }
-
-
 .order {
     position: fixed;
     display: flex;
@@ -143,7 +97,6 @@ main > section {
     z-index: 1;
     bottom: 50px;
 }
-
 .order > div {
     margin: 20px;
     font-weight: 900;
@@ -153,60 +106,47 @@ main > section {
     font-size: 17px;
     border-radius: 30px;
 }
-
-
 .order > div:first-child {
     background: rgba(0, 0, 0, .7);
     color: white;
 }
-
 .order > div:last-child {
     background: rgba(255, 255, 255, .6);
 
 }
 
-
+/*MODELS*/
 .y {
     background: url("./assets/ModelY.jpg") no-repeat center;
     background-size: cover;
 }
-
 .s {
     background: url("./assets/ModelS.jpg") no-repeat center;
     background-size: cover;
 }
-
 .m3 {
     background: url("./assets/Model3.jpg") no-repeat center;
     background-size: cover;
 }
-
 .x {
     background: url("./assets/ModelX.jpg") no-repeat center;
     background-size: cover;
 
 }
-
 .a {
     background: url("./assets/Accessories.jpg") no-repeat center;
     background-size: cover;
 
 }
-
-
 .sr {
     background: url("./assets/SolarRoof.jpg") no-repeat center;
     background-size: cover;
 
 }
-
 .sp {
     background: url("./assets/SolarPanels.jpg") no-repeat center;
     background-size: cover;
 }
-
-
-
 
 /*NAVBAR*/
 nav {
@@ -222,8 +162,6 @@ nav {
     align-items: center;
     justify-content: space-evenly;
 }
-
-
 nav h1 {
     position: absolute;
     left: 20px;
@@ -232,7 +170,6 @@ nav h1 {
     font-size: 20px;
     letter-spacing: 20px;
 }
-
 nav > div > span {
     padding: 0 10px;
     font-weight: 900;
@@ -240,8 +177,6 @@ nav > div > span {
     cursor: pointer;
     text-transform: uppercase;
 }
-
-
 nav img {
     width: 20px;
     z-index: 4;
@@ -249,24 +184,14 @@ nav img {
     right: 20px;
     cursor: pointer;
 }
-
-
-
-
-
-
-.open_nav{
+.open_nav {
     animation: open_nav .1s linear;
     animation-fill-mode: forwards;
 }
-
-.close_nav{
+.close_nav {
     animation: close_nav .5s linear;
     animation-fill-mode: forwards;
 }
-
-
-
 nav section hr {
     width: 90%;
     left: 0;
@@ -275,8 +200,6 @@ nav section hr {
     right: 0;
     margin: auto;
 }
-
-
 nav section {
     top: 0;
     right: 0;
@@ -287,8 +210,6 @@ nav section {
     height: 100vh;
     position: absolute;
 }
-
-
 nav section div {
     text-indent: 20px;
     font-weight: 900;
@@ -297,20 +218,19 @@ nav section div {
     cursor: pointer;
     padding: 20px 0;
 }
-
-
-nav section div:hover{
+nav section div:hover {
     background: black;
     color: white;
 }
 
-@media (max-width:800px) {
-    nav > div > span{
+/*QUERIES*/
+@media (max-width: 800px) {
+    nav > div > span {
         visibility: hidden;
     }
 }
 
-
+/*EFFECTS*/
 @keyframes close_nav {
     0% {
         right: 0;
@@ -319,7 +239,6 @@ nav section div:hover{
         right: -300%;
     }
 }
-
 @keyframes open_nav {
     0% {
         right: -300px;
@@ -327,4 +246,30 @@ nav section div:hover{
     100% {
         right: 0;
     }
+}
+@keyframes in {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes out {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+.out {
+    animation: out .2s linear;
+    animation-fill-mode: forwards;
+}
+.in {
+    animation: in 1s linear;
+    animation-fill-mode: forwards;
 }

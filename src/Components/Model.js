@@ -1,16 +1,3 @@
 import React from "react";
 
-
-
-export default class Model extends React.Component {
-    constructor(props) {
-        super(props);
-
-    }
-
-    render() {
-        return (
-            <section className={this.props.name}/>
-        )
-    }
-}
+export default function Model(props) {return <section className={props.name}/>}

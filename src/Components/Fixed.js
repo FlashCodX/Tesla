@@ -41,7 +41,6 @@ export class Fixed extends React.Component {
                             btn2: 'Learn More'
                         })
                         break
-
                     case 'x':
                         this.setState({
                             title: 'Model X',
@@ -51,7 +50,6 @@ export class Fixed extends React.Component {
                             btn2: 'Learn More'
                         })
                         break
-
                     case 'm3':
                         this.setState({
                             title: 'Model 3',
@@ -62,7 +60,6 @@ export class Fixed extends React.Component {
                         })
                         break
                     case 's':
-
                         this.setState({
                             title: 'Model S',
                             description: 'Order Online for Touchless Delivery',
@@ -71,8 +68,6 @@ export class Fixed extends React.Component {
                             btn2: 'Learn More'
                         })
                         break
-
-
                     case 'sr':
                         this.setState({
                             title: 'Solar for New Roofs',
@@ -80,7 +75,6 @@ export class Fixed extends React.Component {
                             accessories: false,
                             btn1: 'Order Now',
                             btn2: 'Learn More'
-
                         })
                         break
                     case 'sp':
