@@ -1,26 +1,34 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import {Navbar} from "./Components/Navbar";
+import Model from "./Components/Model";
+import './styles.css'
+import {Fixed} from "./Components/fixed";
+import SplashScreen from "./Components/SplashScreen";
+export default class extends React.Component {
+    constructor() {
+        super();
+        this.state={
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+        }
+    }
+    render() {
+        return (
+            <main className="App">
+                <SplashScreen/>
+
+                <Navbar/>
+                <Fixed title={'Model Y'} description={'Order Online for Touchless Delivery'}/>
+                <Model name={'y'}/>
+                <Model id={'gggg'} name={'x'}/>
+                <Model name={'m3'}/>
+                <Model name={'s'}/>
+                <Model name={'sp'}/>
+                <Model name={'sr'}/>
+                <Model name={'a'}/>
+            </main>
+        );
+    }
+
+
 }
 
-export default App;
