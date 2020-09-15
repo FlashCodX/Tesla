@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/tesla/static/css/main.47daa36f.chunk.css",
+    "main.js": "/tesla/static/js/main.e2fef401.chunk.js",
+    "main.js.map": "/tesla/static/js/main.e2fef401.chunk.js.map",
+    "runtime-main.js": "/tesla/static/js/runtime-main.4518b41c.js",
+    "runtime-main.js.map": "/tesla/static/js/runtime-main.4518b41c.js.map",
+    "static/js/2.7f47acfd.chunk.js": "/tesla/static/js/2.7f47acfd.chunk.js",
+    "static/js/2.7f47acfd.chunk.js.map": "/tesla/static/js/2.7f47acfd.chunk.js.map",
+    "index.html": "/tesla/index.html",
+    "precache-manifest.46962909e4dce70c78308a357c20550a.js": "/tesla/precache-manifest.46962909e4dce70c78308a357c20550a.js",
+    "service-worker.js": "/tesla/service-worker.js",
+    "static/css/main.47daa36f.chunk.css.map": "/tesla/static/css/main.47daa36f.chunk.css.map",
+    "static/js/2.7f47acfd.chunk.js.LICENSE.txt": "/tesla/static/js/2.7f47acfd.chunk.js.LICENSE.txt",
+    "static/media/styles.css": "/tesla/static/media/SolarRoof.fe70c48e.jpg",
+    "static/media/close.svg": "/tesla/static/media/close.2c5552a1.svg",
+    "static/media/navIcon.svg": "/tesla/static/media/navIcon.b3f49afd.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4518b41c.js",
+    "static/js/2.7f47acfd.chunk.js",
+    "static/css/main.47daa36f.chunk.css",
+    "static/js/main.e2fef401.chunk.js"
+  ]
+}
