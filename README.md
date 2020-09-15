@@ -26,10 +26,6 @@ $ cd Tesla
 $ npm install
 ```
 
-Go to the [Spotify DashBoard](https://developer.spotify.com/dashboard/applications) and create a new app.
-Copy the client Id from the created app and replace the constant value "clientID" on the spotify.js file.
-
-
 ### Running the App
 This will start a local server using node, and should be available on http://localhost:3000/
 ```sh
