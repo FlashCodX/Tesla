@@ -1,12 +1,14 @@
 # TESLA
 
-#### This Project is replica of the original Tesla Website, made with React Js.
 
-> Check out the app in :  [https://flashcodx.github.io/Tesla/](https://flashcodx.github.io/Tesla/)
 
 ![preview](src/assets/preview.gif)
 ![preview](src/assets/preview2.gif)
 
+
+#### This Project is replica of the original Tesla Website, made with React Js.
+
+> Check out the app in :  [https://flashcodx.github.io/Tesla/](https://flashcodx.github.io/Tesla/)
 
 ## Tech
 * [React] - HTML enhanced for web apps!
